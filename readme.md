@@ -1,46 +1,29 @@
 ## NLW Valoriza
 
-### Regras
+![image](https://user-images.githubusercontent.com/73067717/126368452-825b7615-ea63-4f71-b924-dd8e4ee10b88.png)
 
-- Cadastro de usuário
+## Tecnologias
 
-  [ ] Não é permitido cadastrar mais de um usuário com o mesmo email.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  [ ] Não é permitido cadastrar usuário sem e-mail.
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-- Cadastro de TAG
+# 💻 Projeto
 
-  [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
+Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
 
-  [ ] Não é permitido cadastrar tag sem nome.
+## 🚀 Como executar
 
-  [ ] Não é permitido o cadastro por usuários que não sejam administradores.
+- Clone o repositório
+- Rode `yarn` para baixar as dependências
+- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
+- Rode o `yarn dev` para iniciar a aplicação.
 
-- Cadastro de elogios
+Por fim, a aplicação estará disponível em `http://localhost:3000`
 
-  [ ] Não é permitido um usuário cadastrar um elogio para si.
+## 📄 Licença
 
-  [ ] Não é permitido cadastrar elogios para usuários inválidos.
-
-  [ ] O usuário precisa estar autenticado na aplicação.
-
-/\*\*
-
-- GET => Buscar uma informação
-- POST => Inserir uma informação
-- PUT => Alterar uma informação
-- DELETE => Remover uma informação
-- PATCH => Alterar uma informação específica
-  \*/
-
-/\*\*
-
-- Tipos de parâmetros
-- Routes Params => http://localhost:3000/produtos/78971546587
-- Query Params => http://localhost:3000/produtos?name=teclado&description=tecladogrande
--
-- Body Params => {
-- "name": "teclado",
-- "description": "teclado grande",
-- }
-  \*/
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
