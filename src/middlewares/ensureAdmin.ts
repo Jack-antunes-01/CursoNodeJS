@@ -13,10 +13,7 @@ export async function ensureAdmin(
 
   const { admin } = await usersRepositories.findOne(user_id);
 
-  // Verificar se o usuário é admin
-  if (admin) {
-    return next();
-  }
+  if (admin) return next();
 
   return response.status(401).json({
     error: "Unauthorized",
