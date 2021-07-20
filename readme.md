@@ -23,7 +23,3 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 - Rode o `yarn dev` para iniciar a aplicação.
 
 Por fim, a aplicação estará disponível em `http://localhost:3000`
-
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
