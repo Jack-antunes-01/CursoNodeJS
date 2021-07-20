@@ -9,6 +9,10 @@ interface IComplimentRequest {
   message: string;
 }
 
+interface IComplimentUserIdRequest {
+  user_id: string;
+}
+
 class CreateComplimentService {
   async execute({
     tag_id,
@@ -41,6 +45,8 @@ class CreateComplimentService {
 
     return compliment;
   }
+
+  
 }
 
 export { CreateComplimentService };
